@@ -5,7 +5,7 @@ ensureSessionStarted();
 // Check if request method is POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') fail('method not allowed', 405);
 
-$b = body();
+$b = body(); 
 
 // Trim username and password
 $username = trim($b['username'] ?? '');
