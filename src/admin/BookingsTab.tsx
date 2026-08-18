@@ -509,7 +509,7 @@ export default function BookingsTab({ isSuperAdmin }: Props) {
               </div>
             </motion.div>
           </motion.div>
-        )} 
+        )}
       </AnimatePresence>
     </div>
   );
